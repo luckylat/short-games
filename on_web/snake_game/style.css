@@ -1,0 +1,17 @@
+#stage {
+  width: 620px;
+  height: 620px;
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+}
+
+#game-layer {
+  z-index: 2;
+}
+
+#background-layer {
+  z-index: 1;
+}
